@@ -17,8 +17,7 @@ public class Lista {
     public Lista() {
         this.inicio = null;
     }
-    // 
-
+    // esta es la prueba de que si sirve el github
     public boolean vacia() {
         if (inicio == null) {
             return true;
