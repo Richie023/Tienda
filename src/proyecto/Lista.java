@@ -17,6 +17,7 @@ public class Lista {
     public Lista() {
         this.inicio = null;
     }
+    // 
 
     public boolean vacia() {
         if (inicio == null) {
