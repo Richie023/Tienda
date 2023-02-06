@@ -9,15 +9,16 @@
 }
 
 body{
-   background:  linear-gradient{120deg,#650985C,#E68BFA};
+   background:  linear-gradient(120deg,#65098C,#E68BFA);
     height: 100vh;
     overflow: hidden
 }
 
 .center{
-    position: absolute;
+    position:absolute;
     top:50%;
-    width: 40px;
+    left: 50%;
+    width: 400px;
     background: white;
     border-radius: 10px;
     transform: translate(-50%,-50%);
@@ -34,6 +35,7 @@ body{
     padding: 0 40px;
     box-sizing: border-box;
 }
+
 form .txt_field{
     position: relative;
     border-bottom: 2px solid #adadad;
