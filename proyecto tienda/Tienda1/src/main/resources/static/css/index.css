@@ -1,0 +1,31 @@
+/*box-sizing= contex-box  por default suman todos los elementos de la csja individualmente
+-  border-box y el border box modificar wl tamñao del contenido para que se ajusten al withg y al heigh
+
+*/
+
+
+.block{
+   background-color: purple;
+   border:10px solid blue;
+   padding: 20px;
+   width: 200px;
+   height: 200px;
+   box-sizing:border-box;
+
+   
+   
+}
+.static{
+    position: static;
+    border: 3px solid green;
+    top: 400px;
+    left: 500px;
+    
+}
+.relative{
+    position: relative;
+    border: 3px solid green;
+    top: 400px;
+    left: 500px;
+    width: 300px;
+}
