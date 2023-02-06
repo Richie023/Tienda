@@ -4,6 +4,7 @@
 <html>
     <head>
         <title> Curso Progra </title>
+        <!-- etiqueta link sirve para importar hojas de estilo -->
         <link rel="stylesheet" href="css/index.css"/>
       
     </head>
@@ -12,11 +13,36 @@
     <body>
         <!--  En esta parte se ve todo lo que el usuario ve -->
         
-        <div class='block'>BLOQUE</div>
-        <div class='static'>ESto es estatico </div>
-        <div class='relative'>ESto es relativo </div>
-       
-        <div> <!-- division  -->
+        <!-- class sirve para todo el documento -->
+        <div class='block'>
+            <h1>BLOQUE</h1>
+        </div>
+        <!-- Aqui cierra el box-model -->
+        <!-- Pocisionamiento de etiquetas (relatives,static, fixed ,absolute -->
+        <div class='static'> Esto es Estatico </div>
+        <div class='relative'> ESTO ES RELATIVO
+            <div class='-absolute'> ESTO ES ABSOLUTO </div>
+             
+        </div>
+        
+        
+         <div class='fixed'> ESTO ES FIXED </div>
+          <div class='absolute'> ESTO ES ABSOLUTO </div>
+        
+          <!-- Aqui se cierra el pocisionamiento de CSS -->
+        
+          <!--  Aprendimos sobre display -->
+          
+          <div class="cuadrado" ></div>
+          <div class="cuadrado" ></div>
+          <div class="cuadrado" ></div>
+          
+          
+          <a href="Hola mundo">Hola mundo</a>
+          <a href="Hola mundo">Hola mundo</a>
+      
+          
+          <div> <!-- division  -->
         <!-- Heading =Encabezados >titulo y subtitulos-->
         <h1> Hola mundo </h1>
         <h2> Hola mundo </h2>
@@ -26,52 +52,51 @@
        </div>
         
         
-        <section> <!--  sirve para seleccionar secciones  -->
-        <!-- Parrafo =parrafos etiqueta p con p y tab se autogenra el parrafo -->
-        <p>Hola mundo ajajajajahjdlsjkkajhdjkl</p>
         
-    
-    
-   
-    <!-- Etiqueta ol es una lista ordena = order list  puede ser para recetas o algo parecido -->
-    <ol>
-        <li>second</li>
-        <li>first</li>
-        <li>third</li>
-        <li>second</li>
-        <li>first</li>
-        <li>third</li>
+        <section> 
+            <!--  sirve para seleccionar secciones  -->
+            <!-- Parrafo =parrafos etiqueta p con p y tab se autogenra el parrafo -->
+            <p>Hola mundo ajajajajahjdlsjkkajhdjkl</p>
 
-   
-    
-    </ol>
-        </section> <!-- Sirve para seleccion de secciones -->
-    <!-- Etiqueta ul =lista desordenada =unorder list  para usar listas sin importar el orden -->
+            <!-- Etiqueta ol es una lista ordena = order list  puede ser para recetas o algo parecido -->
+            <ol>
+                <li>second</li>
+                <li>first</li>
+                <li>third</li>
+                <li>second</li>
+                <li>first</li>
+                <li>  
+                    <ul>
+                        <li>first</li>
+                        <li>second</li>
+                        <li>third</li>
+                    </ul> <!-- Etiqueta ul =lista desordenada =unorder list  para usar listas sin importar el orden -->
 
-        
-    <ul>
-        <li>first</li>
-        <li>second</li>
-        <li>third</li>
-    </ul>
-    <!-- Etiqueta a sirve para crear atributos en los objetos  en esta etiqueta sirve para hipervinculo-->
-    <a href="Home.htlm">Home</a>
-    
-    <!-- url absolutas y relativas   --> 
-    
-    <!-- Etiquetas br son para saltos de linea = break Empty tags-->
-     <p>Hola mundo ajajajaja <br>hjdlsjkkajhdjkl</p>
-     
-     
-     <!-- etiquetas para agregar imagenes -->
-     <img src="images/carro.jfif" alt="Esta es mi imagen"/> <!-- alt sirve para comentar en caso de que aparezca la imagen -->
-     
-     
-     
-     
-     
-     
-</body>
+                </li>
+            </ol>
+        </section>  <!-- Sirve para seleccion de secciones -->
+       
+
+
+      
+        <!-- Etiqueta a sirve para crear atributos en los objetos  en esta etiqueta sirve para hipervinculo-->
+        <a href="Home.htlm">Home</a>
+
+        <!-- url absolutas y relativas   --> 
+
+        <!-- Etiquetas br son para saltos de linea = break Empty tags-->
+        <p>Hola mundo ajajajaja <br>hjdlsjkkajhdjkl</p>
+
+
+        <!-- etiquetas para agregar imagenes -->
+        <img src="images/carro2.jfif" alt="Esta es mi imagen"/> <!-- alt sirve para comentar en caso de que aparezca la imagen -->
+
+
+
+
+
+
+    </body>
 
 
 
