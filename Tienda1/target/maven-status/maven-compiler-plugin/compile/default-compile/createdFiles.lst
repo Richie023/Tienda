@@ -1,0 +1,5 @@
+com\tienda\repository\PaisRepository.class
+com\tienda\entity\Persona.class
+com\tienda\tienda\TiendaApplication.class
+com\tienda\repository\PersonaRepository.class
+com\tienda\entity\Pais.class
