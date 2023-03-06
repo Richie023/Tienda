@@ -8,10 +8,6 @@ import com.TiendaClase.TiendaClase.entity.Persona;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-/**
- *
- * @author Cristofer
- */
 @Repository
 public interface PersonaRepository extends CrudRepository<Persona, Long>{
     

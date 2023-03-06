@@ -7,10 +7,7 @@ package com.TiendaClase.TiendaClase.service;
 import com.TiendaClase.TiendaClase.entity.Persona;
 import java.util.List;
 
-/**
- *
- * @author Cristofer
- */
+
 public interface IPersonaService {
     public List<Persona> getAllPersona();
     public Persona getPersonaById(long id);

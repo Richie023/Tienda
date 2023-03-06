@@ -13,10 +13,6 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import java.io.Serializable;
 
-/**
- *
- * @author Cristofer
- */
 @Entity
 @Table(name = "personas")
 public class Persona implements Serializable {

@@ -7,10 +7,6 @@ package com.TiendaClase.TiendaClase.service;
 import com.TiendaClase.TiendaClase.entity.Pais;
 import java.util.List;
 
-/**
- *
- * @author Cristofer
- */
 
 
 public interface IPaisService {
