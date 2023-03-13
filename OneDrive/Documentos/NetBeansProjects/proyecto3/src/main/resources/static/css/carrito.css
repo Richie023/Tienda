@@ -1,0 +1,14 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 13 mar. 2023, 11:18:46
+    Author     : ricar_t6uqtj3
+*/
+
+@media (min-width: 1025px) {
+.h-custom {
+height: 100vh !important;
+}
+}
